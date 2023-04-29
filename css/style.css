@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Ysabeau', sans-serif;
+}
+.footer{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: gray;
+    text-align: justify;
+    font-size: 20px;
+}
+.orange{
+    color: orange;
+}
+.header-part{
+   display: inline-flex;
+   
+   background-image: url(../images/07.png);
+   background-repeat: no-repeat;
+}
+.header-one{
+    width: 40%;
+    margin-left:8%;
+}
+.header-two{
+    width: 40%;
+}
+.header-two img{
+    width: 100%;
+}
+.hire-button{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-image: linear-gradient(red, purple);
+    color: white;
+    border-radius: 10px;
+}
+.more{
+    background-image: url(../images/05.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experince-one{
+    width: 40%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 40px gray ;
+    padding: 10px;
+    margin-left: 5%;
+}
+.experince{
+    display: inline-flex;
+    background-image: url(../images/01.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.hexa{
+    border-left: 7px solid black;
+    border-image: linear-gradient(180deg,lightSalmon, tomato);
+    border-image-slice: 1;
+}
+.deshi{
+    border-left: 7px solid black;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
